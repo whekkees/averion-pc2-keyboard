@@ -1,5 +1,5 @@
-
-use crate::io::{inb::inb, outb::outb};
+use crate::arch::x86::io::inb;
+use crate::arch::x86::io::outb;
 
 
 const DATA_PORT : u16 = 0x60;
